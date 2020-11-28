@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="472" it="0" lt="472" ct="237" ts="1606535134680" s="true" lb="初始化登录" rc="200" rm="OK" tn="setUp线程组 1-1" dt="text" de="" by="676" sby="209" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:34 GMT
+Content-Type: application/json
+Content-Length: 446
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 8
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;post&quot;: &quot;123&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;8&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7de-51362eaa42c195f306d8b128&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">post=123</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="472" it="0" lt="472" ct="236" ts="1606535135208" s="true" lb="添加接口__IDO123" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="752" sby="269" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:34 GMT
+Content-Type: application/json
+Content-Length: 522
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 67
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;login_name&quot;: &quot;IDO123&quot;, 
+    &quot;phone&quot;: &quot;13100000000&quot;, 
+    &quot;real_name&quot;: &quot;老徐123&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;67&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7de-07b82e931c12a5d055f18e4d&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">login_name=IDO123&amp;phone=13100000000&amp;real_name=%E8%80%81%E5%BE%90123</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="243" it="0" lt="242" ct="0" ts="1606535135690" s="true" lb="添加接口__IDO124" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="752" sby="269" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:35 GMT
+Content-Type: application/json
+Content-Length: 522
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 67
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;login_name&quot;: &quot;IDO124&quot;, 
+    &quot;phone&quot;: &quot;13100000001&quot;, 
+    &quot;real_name&quot;: &quot;老徐124&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;67&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7df-028209ea5ab92fb81550f2e1&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">login_name=IDO124&amp;phone=13100000001&amp;real_name=%E8%80%81%E5%BE%90124</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="235" it="0" lt="235" ct="0" ts="1606535135944" s="true" lb="添加接口__IDO125" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="752" sby="269" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:35 GMT
+Content-Type: application/json
+Content-Length: 522
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 67
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;login_name&quot;: &quot;IDO125&quot;, 
+    &quot;phone&quot;: &quot;13100000002&quot;, 
+    &quot;real_name&quot;: &quot;老徐125&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;67&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7df-130edd381714ce894c51a20f&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">login_name=IDO125&amp;phone=13100000002&amp;real_name=%E8%80%81%E5%BE%90125</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="464" it="0" lt="464" ct="0" ts="1606535136185" s="true" lb="添加接口__IDO126" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="752" sby="269" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:35 GMT
+Content-Type: application/json
+Content-Length: 522
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 67
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;login_name&quot;: &quot;IDO126&quot;, 
+    &quot;phone&quot;: &quot;13100000003&quot;, 
+    &quot;real_name&quot;: &quot;老徐126&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;67&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7df-5ed73127160bb4b55c945eb0&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">login_name=IDO126&amp;phone=13100000003&amp;real_name=%E8%80%81%E5%BE%90126</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="239" it="0" lt="239" ct="0" ts="1606535136659" s="true" lb="添加接口__IDO128" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="752" sby="269" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:36 GMT
+Content-Type: application/json
+Content-Length: 522
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 67
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;login_name&quot;: &quot;IDO128&quot;, 
+    &quot;phone&quot;: &quot;13100000005&quot;, 
+    &quot;real_name&quot;: &quot;老徐128&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;67&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7e0-424a19bc1611e9a62b3bcf06&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">login_name=IDO128&amp;phone=13100000005&amp;real_name=%E8%80%81%E5%BE%90128</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="237" it="0" lt="237" ct="0" ts="1606535136911" s="true" lb="添加接口__IDO129" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="752" sby="269" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:36 GMT
+Content-Type: application/json
+Content-Length: 522
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 67
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;login_name&quot;: &quot;IDO129&quot;, 
+    &quot;phone&quot;: &quot;13100000006&quot;, 
+    &quot;real_name&quot;: &quot;老徐129&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;67&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7e0-41f9e369433357ce3a1931ba&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">login_name=IDO129&amp;phone=13100000006&amp;real_name=%E8%80%81%E5%BE%90129</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="246" it="0" lt="246" ct="0" ts="1606535137154" s="false" lb="添加接口__IDO130" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="740" sby="251" sc="1" ec="1" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /老徐12/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:36 GMT
+Content-Type: application/json
+Content-Length: 510
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 49
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {
+    &quot;login_name&quot;: &quot;IDO130&quot;, 
+    &quot;phone&quot;: &quot;13100000007&quot;, 
+    &quot;real_name&quot;: &quot;130&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;49&quot;, 
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7e0-7138170b7808522a120bee38&quot;
+  }, 
+  &quot;json&quot;: null, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">login_name=IDO130&amp;phone=13100000007&amp;real_name=130</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="470" it="0" lt="470" ct="235" ts="1606535137407" s="true" lb="初始化退出" rc="200" rm="OK" tn="tearDown线程组 1-1" dt="text" de="" by="518" sby="124" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-8HU3I9T6">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 28 Nov 2020 03:45:37 GMT
+Content-Type: application/json
+Content-Length: 288
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {
+    &quot;get&quot;: &quot;123&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.12 (Java/12.0.1)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5fc1c7e1-7dbb13b828e5bd2e3238fd2c&quot;
+  }, 
+  &quot;origin&quot;: &quot;61.145.150.228&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/get?get=123&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://httpbin.org/get?get=123</java.net.URL>
+</httpSample>
+
+</testResults>
