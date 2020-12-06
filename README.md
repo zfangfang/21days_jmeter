@@ -94,3 +94,7 @@
 
 &nbsp;&nbsp; 添加后置处理器也不行，还需将jmeter.properties中默认编码设置为utf-8: sampleresult.default.encoding=utf-8
 
+#### Day15: 配置元件之用户定义的变量+抽离公共数据
+&nbsp;&nbsp; 参考：https://www.jianshu.com/p/b2e40ff62952
+
+&nbsp;&nbsp; 用户参数和用户定义的变量：https://www.cnblogs.com/syw20170419/p/9844027.html
