@@ -98,3 +98,31 @@
 &nbsp;&nbsp; 参考：https://www.jianshu.com/p/b2e40ff62952
 
 &nbsp;&nbsp; 用户参数和用户定义的变量：https://www.cnblogs.com/syw20170419/p/9844027.html
+
+#### Day16: 参数传递(token传递,接口关联等)
+&nbsp;&nbsp; 参考：https://www.jianshu.com/p/e3a116f7bf6b
+1. 目标：将登录之后的token信息传到其他线程组
+
+2. 准备：
+
+&nbsp;&nbsp; a. setUp线程组，添加登录接口，httpbin.org不提供登录/退出机制,目前我们用post接口模拟的模拟登录接口
+
+&nbsp;&nbsp; b. 普通线程组，管理博文接口
+
+&nbsp;&nbsp; c. tearDown线程组，添加退出接口，用httpbin.org get接口模拟的模拟退出接口
+
+3. 步骤：
+
+&nbsp;&nbsp; a. 登录接口，新增后置处理器：json提取器，提取登录接口的token值
+
+&nbsp;&nbsp; b. 登录接口，新增后置处理器：BashShell 后置处理程序，将提取登录接口的token值设置为全局变量，例如：
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String str=vars.get("loginName");
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;props.put("loginName",str);
+
+&nbsp;&nbsp; c. 测试计划，新增配置元件：HTTP信息头管理器，添加参数token，并引用上述的全局变量为其值，${_P(loginName,)}
+
+&nbsp;&nbsp; d. 管理博文接口，添加参数token，并引用上述的全局变量为其值，${_P(loginName,)}
+
+
