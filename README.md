@@ -126,3 +126,10 @@
 &nbsp;&nbsp; d. 管理博文接口，添加参数token，并引用上述的全局变量为其值，${_P(loginName,)}
 
 
+#### Day17: 配置元件之用户定义的变量+抽离公共数据
+
+&nbsp;&nbsp; 参考：https://www.jianshu.com/p/5c1d64e5d724
+
+&nbsp;&nbsp; https://blog.csdn.net/qq_18298049/article/details/106041256
+
+
