@@ -132,4 +132,11 @@
 
 &nbsp;&nbsp; https://blog.csdn.net/qq_18298049/article/details/106041256
 
+#### Day18: 前置处理器__熟悉常用组件
+&nbsp;&nbsp; 参考：https://www.jianshu.com/p/84866b2315f8
+
+&nbsp;&nbsp; 问题：jdk12.0.1 sun.misc.BASE64Decoder不可用（Class or variable not found: sun.misc.BASE64Encoder）
+
+&nbsp;&nbsp; 解决方法：使用org.apache.commons.codec.binary.Base64 ，https://blog.csdn.net/jingjing_tester/article/details/84635474
+
 
