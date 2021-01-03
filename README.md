@@ -139,4 +139,15 @@
 
 &nbsp;&nbsp; 解决方法：使用org.apache.commons.codec.binary.Base64 ，https://blog.csdn.net/jingjing_tester/article/details/84635474
 
+#### Day19: JDBC连接数据库,增删改查,抛出变量
+&nbsp;&nbsp; 参考：https://www.jianshu.com/p/2d1a3ae8cbd7
+
+&nbsp;&nbsp; 连接linux数据库：mysql -u root -p 登录后：set password for 'root'@'%' = password('passwd')
+
+#### Day20: 常用断言使用_JSON断言_响应结果断言
+&nbsp;&nbsp; 参考：https://www.jianshu.com/p/0ab3e5e22673
+
+
+#### Day21: 生成HTML测试报告(非自定义)
+&nbsp;&nbsp; 参考：https://www.jianshu.com/p/bc42f8c69fee  https://www.cnblogs.com/imyalost/p/10239317.html
 
